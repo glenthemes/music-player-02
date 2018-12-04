@@ -1,0 +1,41 @@
+/*-------MUSIC PLAYER BY GLENTHEMES-------*/
+#glenplayer02 {
+   position:fixed;
+   bottom:0;margin-bottom:20px;
+   left:0;margin-left:20px;
+   display:flex;
+   z-index:99;
+}
+#glenplayer02 a {text-decoration:none;}
+
+#glenplayer02 > div {
+   align-self:center;
+   -webkit-align-self:center;
+}
+
+.music-controls {
+   user-select:none;
+   -webkit-user-select:none;
+   cursor:pointer;
+}
+
+.playy, .pausee {color:#222;} /* color of play & pause buttons */
+
+.playy {font-size:13px;}
+
+.pausee {
+   display:none;
+   margin-right:1.5px;
+}
+
+.sonata {
+   margin-left:10px;
+   color:#222; /* color of music note symbol */
+}
+
+.labeltext {
+   margin-left:8px;
+   font-family:courier new;
+   font-size:9px;
+   color:#222; /* color of song title */
+}
